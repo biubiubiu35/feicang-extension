@@ -8,8 +8,12 @@
 
 ## 👨‍💻 作者
 
-- Roy - [https://cursor101.com](https://cursor101.com)
-![image](https://github.com/user-attachments/assets/edd386c3-7a98-41c5-8d71-e0766d16449e)
+Roy  [https://cursor101.com](https://cursor101.com)
+
+加入用户群
+- 分享你的工作流
+- 提出你的需求
+<img src="https://github.com/user-attachments/assets/edd386c3-7a98-41c5-8d71-e0766d16449e" alt="jpg name" width="200px"/>
 
 ## 🌟 核心功能
 
