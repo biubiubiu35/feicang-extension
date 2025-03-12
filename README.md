@@ -54,6 +54,8 @@ Roy  [https://cursor101.com](https://cursor101.com)
      ```
    - 打开 Chrome，进入扩展程序页面 (chrome://extensions/)
    - 开启"开发者模式"
+     <img src="https://github.com/user-attachments/assets/25724b2b-5d34-4b5d-93ca-3f0d5f0924ce" width="400px">
+
    - 点击"加载已解压的扩展程序"，选择项目文件夹
 
 2. **配置扩展**
