@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>飞藏 一键收藏到飞书多维表格</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- 侧栏菜单 -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>飞藏</h2>
+        <p>一键收藏到飞书多维表格</p>
+      </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li class="nav-item active" data-page="settings">
+            <span class="nav-icon">🛠️</span>
+            <span class="nav-text">设置</span>
+          </li>
+          <li class="nav-item" data-page="inbox">
+            <span class="nav-icon">📋</span>
+            <span class="nav-text">收藏记录</span>
+            <span class="nav-badge" id="inboxCount">0</span>
+          </li>
+          <li class="nav-item" id="viewTableItem">
+            <span class="nav-icon">🔍</span>
+            <span class="nav-text">查看多维表格</span>
+          </li>
+        </ul>
+        <div class="sidebar-footer">
+          <a href="https://cursor101.com/zh/products/feicang" target="_blank" class="about-link">
+            <span class="nav-icon">💡</span>
+            <span class="nav-text">关于</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- 主内容区域 -->
+    <div class="main-content">
+      <!-- 设置页面 -->
+      <div class="page-container" id="settingsPage">
+        <div class="page-header">
+          <h1>设置</h1>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>飞书多维表格配置</h3>
+          </div>
+          <div class="card-body">
+            <form id="settingsForm">
+              <div class="form-group">
+                <label for="appId">飞书多维表格 App ID</label>
+                <input type="text" id="appId" required>
+              </div>
+              <div class="form-group">
+                <label for="appSecret">飞书多维表格 App Secret</label>
+                <input type="password" id="appSecret" required>
+              </div>
+              <div class="form-group">
+                <label for="baseId">多维表格 URL</label>
+                <input type="url" id="baseUrl" placeholder="例如：https://xxx.feishu.cn/base/xxx" required>
+                <input type="hidden" id="baseId">
+                <div class="form-help">
+                  多维表格需要包含以下字段：URL、Title、Description、Screenshot
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="button" id="verifyButton" class="btn secondary">验证并保存</button>
+                <button type="submit" class="btn primary">保存设置</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header">
+            <h3>帮助文档</h3>
+          </div>
+          <div class="card-body">
+            <p>查看使用说明和常见问题解答，请访问我们的
+              <a href="https://cursor101.com/products/feicang" target="_blank">帮助文档</a>
+              。</p>
+          </div>
+        </div>
+        <div id="message" class="message"></div>
+      </div>
+
+      <!-- Inbox 页面 -->
+      <div class="page-container hidden" id="inboxPage">
+        <div class="page-header">
+          <h1>收藏记录</h1>
+          <div class="expiry-notice">
+            <span class="expiry-icon">📋</span>
+            <span>这是本地保存的收藏记录，用途是检查已收藏的列表。最多保存 <span id="maxItemCount">0</span> 条。</span>
+          </div>
+        </div>
+        <div class="inbox-container">
+          <div id="inboxItems" class="inbox-items">
+            <!-- 收藏项目将在这里动态生成 -->
+          </div>
+          <div id="emptyInbox" class="empty-state">
+            <div class="empty-icon">📝</div>
+            <h3>暂无收藏内容</h3>
+            <p>当您保存网页时，它们将显示在这里</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
