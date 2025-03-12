@@ -41,7 +41,7 @@
 ### 2. 安装扩展
 
 1. **下载安装**
-   - 方式一：[Chrome 商店安装](https://chromewebstore.google.com/detail/%E9%A3%9E%E8%97%8F/akphiomifebippogfocekdjbffalcanb)（v1.0.1 版本，不含收藏全文功能）
+   - 方式一：[Chrome 商店安装](https://chromewebstore.google.com/detail/%E9%A3%9E%E8%97%8F/akphiomifebippogfocekdjbffalcanb)（v1.0.1 版本，不含收藏全文功能,最新版正在审核）
    - 方式二：直接[下载 ZIP 包](https://github.com/biubiubiu35/feicang-extension/archive/refs/heads/main.zip)并解压（推荐，包含全部功能）
    - 方式三：使用 Git 克隆项目
      ```bash
