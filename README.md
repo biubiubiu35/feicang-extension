@@ -8,7 +8,12 @@
 
 ## 👨‍💻 作者
 
-- Roy - [https://cursor101.com](https://cursor101.com)
+Roy  [https://cursor101.com](https://cursor101.com)
+
+加入用户群
+- 分享你的工作流
+- 提出你的需求
+<img src="https://github.com/user-attachments/assets/edd386c3-7a98-41c5-8d71-e0766d16449e" alt="jpg name" width="200px"/>
 
 ## 🌟 核心功能
 
@@ -49,6 +54,8 @@
      ```
    - 打开 Chrome，进入扩展程序页面 (chrome://extensions/)
    - 开启"开发者模式"
+     <img src="https://github.com/user-attachments/assets/25724b2b-5d34-4b5d-93ca-3f0d5f0924ce" width="400px">
+
    - 点击"加载已解压的扩展程序"，选择项目文件夹
 
 2. **配置扩展**
