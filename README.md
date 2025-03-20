@@ -1,10 +1,8 @@
 # 飞藏 (FeiCang) - 一键收藏到飞书多维表格
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/akphiomifebippogfocekdjbffalcanb?label=Chrome%20Web%20Store&logo=google-chrome&style=flat-square)](https://chromewebstore.google.com/detail/%E9%A3%9E%E8%97%8F/akphiomifebippogfocekdjbffalcanb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/akphiomifebippogfocekdjbffalcanb?label=Chrome%20Web%20Store&logo=google-chrome&style=flat-square)](https://chromewebstore.google.com/detail/%E9%A3%9E%E8%97%8F/cmamnnhnffaaedehbgojmfpmccoocgmk)
 
 飞藏，专为知识工作者设计的剪藏工具。一键收藏到飞书多维表格，打造自己专属阅读工作流。
-
-> **注意**: Chrome 商店版本 (v1.0.1) 暂不支持收藏全文功能，建议使用下方的 ZIP 包安装方式获取完整功能。
 
 ## 👨‍💻 作者
 
@@ -46,14 +44,13 @@ Roy  [https://cursor101.com](https://cursor101.com)
 ### 2. 安装扩展
 
 1. **下载安装**
-   - 方式一：[Chrome 商店安装](https://chromewebstore.google.com/detail/%E9%A3%9E%E8%97%8F/akphiomifebippogfocekdjbffalcanb)（v1.0.1 版本，不含收藏全文功能,最新版正在审核）
-   - 方式二：直接[下载 ZIP 包](https://github.com/biubiubiu35/feicang-extension/archive/refs/heads/main.zip)并解压（推荐，包含全部功能）
-   - 方式三：使用 Git 克隆项目
+   - 方式一：[Chrome 商店安装](https://chromewebstore.google.com/detail/%E9%A3%9E%E8%97%8F/cmamnnhnffaaedehbgojmfpmccoocgmk)
+   - 方式二：使用 Git 克隆项目
      ```bash
      git clone https://github.com/biubiubiu35/feicang-extension.git
      ```
-   - 打开 Chrome，进入扩展程序页面 (chrome://extensions/)
-   - 开启"开发者模式"
+      - 打开 Chrome，进入扩展程序页面 (chrome://extensions/)
+      - 开启"开发者模式"
      <img src="https://github.com/user-attachments/assets/25724b2b-5d34-4b5d-93ca-3f0d5f0924ce" width="400px">
 
    - 点击"加载已解压的扩展程序"，选择项目文件夹
